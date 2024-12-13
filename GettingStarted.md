@@ -5,14 +5,14 @@ Below is a structured overview of the key functions and their usage, as if they 
 
 ## Table of Contents
 
-  -[Start New Game](#StartNewGame)
-  -[Handle Player Move](#HandlePlayerMove)
-  -[Get Game Status](#GetGameStatus)
-  -[Engine Move](#EngineMove)
-  -[Highlight Check](#HighlightCheck)
-  -[Remove Highlights](#RemoveHighlights)
-  -[Show Game Over](#ShowGameOver)
-  -[Color Selection](#ColorSelection)
+  - [Start New Game](#StartNewGame)
+  - [Handle Player Move](#HandlePlayerMove)
+  - [Get Game Status](#GetGameStatus)
+  - [Engine Move](#EngineMove)
+  - [Highlight Check](#HighlightCheck)
+  - [Remove Highlights](#RemoveHighlights)
+  - [Show Game Over](#ShowGameOver)
+  - [Color Selection](#ColorSelection)
   -[Resize Board](#ResizeBoard)
   -[Libraries Used](#LibrariesUsed)
 
