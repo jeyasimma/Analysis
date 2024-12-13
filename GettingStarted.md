@@ -3,6 +3,12 @@
 This repository provides a chess game implementation using chess.js and chessboard.js. 
 Below is a structured overview of the key functions and their usage, as if they were API endpoints.
 
+``` ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 ## Table of Contents
 
   - [Start New Game](#StartNewGame)
