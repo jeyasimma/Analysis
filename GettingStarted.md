@@ -38,7 +38,9 @@ Processes a player's move and updates the game state.
 source (string): Starting square of the move (e.g., "e2").
 target (string): Ending square of the move (e.g., "e4").
 ### Usage:
-``` handleMove("e2", "e4"); ```
+```js
+handleMove("e2", "e4");
+```
 
 ### Effect:
 Updates the board if the move is valid.
@@ -50,7 +52,9 @@ Calls the engine's move function if applicable.
 ### Function: updateStatus()
 Displays the current status of the game.
 ### Usage:
-``` updateStatus(); ```
+```js
+updateStatus();
+```
 
 ### Effect:
 Indicates whose turn it is.
@@ -60,7 +64,9 @@ Notifies if the game is in check, checkmate, or drawn.
 ### Function: makeEngineMove()
 Generates a random valid move for the engine.
 ### Usage:
-``` makeEngineMove(); ```
+```js 
+makeEngineMove();
+ ```
 
 ### Effect:
 Updates the board state.
@@ -70,7 +76,9 @@ Displays the new game status.
 ### Function: highlightCheck()
 Highlights the king's square if it is in check.
 ### Usage:
-``` highlightCheck(); ```
+```js
+highlightCheck();
+ ```
 
 ### Effect:
 Visually indicates that the king is in check.
@@ -79,7 +87,9 @@ Visually indicates that the king is in check.
 ### Function: removeHighlights()
 Clears all visual highlights on the board.
 ### Usage:
-``` removeHighlights(); ```
+```js
+ removeHighlights();
+```
 
 ### Effect:
 Removes square highlights.
@@ -90,20 +100,26 @@ Displays a message when the game ends.
 ### Parameters:
 message (string): Game outcome message (e.g., "White is in checkmate!").
 ### Usage:
-``` showGameOver("White is in checkmate!"); ```
+```js
+showGameOver("White is in checkmate!"); 
+```
 
 ### Effect:
 Shows a game-over overlay with the provided message.
 
 # Color Selection
 ### Functions:
-``` $('#playAsWhite').on('click', ...) ``` 
-``` $('#playAsBlack').on('click', ...) ```
+```jQuery
+$('#playAsWhite').on('click', ...) 
+$('#playAsBlack').on('click', ...)
+ ```
 
 Allows the player to choose their color and resets the game.
 ### Usage:
-``` $('#playAsWhite').click(); ```
-``` $('#playAsBlack').click(); ```
+```jQuery
+$('#playAsWhite').click();
+$('#playAsBlack').click();
+ ```
 ### Effect:
 Sets the player color.
 Resets the game board.
@@ -112,7 +128,9 @@ Resets the game board.
 ### Function: $(window).resize(board.resize)
 Makes the chessboard responsive to window resizing.
 ### Usage:
-``` $(window).resize(board.resize); ```
+```js
+$(window).resize(board.resize);
+ ```
 ### Effect:
 Dynamically adjusts the board size.
 
