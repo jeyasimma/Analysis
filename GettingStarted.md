@@ -13,8 +13,8 @@ Below is a structured overview of the key functions and their usage, as if they 
   - [Remove Highlights](#RemoveHighlights)
   - [Show Game Over](#ShowGameOver)
   - [Color Selection](#ColorSelection)
-  -[Resize Board](#ResizeBoard)
-  -[Libraries Used](#LibrariesUsed)
+  - [Resize Board](#ResizeBoard)
+  - [Libraries Used](#LibrariesUsed)
 
 # Start New Game
 
@@ -22,7 +22,7 @@ Function: startNewGame()
 Resets the game board and initializes a new game.
 If the user selects Black, the engine makes the first move.
 Usage:
-``startNewGame();
+`` startNewGame();
 
 Effect:
 Resets the board to the starting position.
