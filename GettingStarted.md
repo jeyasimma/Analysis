@@ -18,101 +18,101 @@ Below is a structured overview of the key functions and their usage, as if they 
 
 # Start New Game
 
-Function: startNewGame()
+### Function: startNewGame()
 Resets the game board and initializes a new game.
 If the user selects Black, the engine makes the first move.
-Usage:
+### Usage:
 " startNewGame();
 
-Effect:
+### Effect:
 Resets the board to the starting position.
 Updates the game status.
 
 # Handle Player Move
 
-Function: handleMove(source, target)
+### Function: handleMove(source, target)
 Processes a player's move and updates the game state.
-Parameters:
+### Parameters:
 source (string): Starting square of the move (e.g., "e2").
 target (string): Ending square of the move (e.g., "e4").
-Usage:
+### Usage:
 handleMove("e2", "e4");
 
-Effect:
+### Effect:
 Updates the board if the move is valid.
 Snaps the piece back to its original position if the move is invalid.
 Calls the engine's move function if applicable.
 
 # Get Game Status
 
-Function: updateStatus()
+### Function: updateStatus()
 Displays the current status of the game.
-Usage:
+### Usage:
 updateStatus();
 
-Effect:
+### Effect:
 Indicates whose turn it is.
 Notifies if the game is in check, checkmate, or drawn.
 
 # Engine Move
-Function: makeEngineMove()
+### Function: makeEngineMove()
 Generates a random valid move for the engine.
-Usage:
+### Usage:
 makeEngineMove();
 
-Effect:
+### Effect:
 Updates the board state.
 Displays the new game status.
 
 # Highlight Check
-Function: highlightCheck()
+### Function: highlightCheck()
 Highlights the king's square if it is in check.
-Usage:
+### Usage:
 highlightCheck();
 
-Effect:
+### Effect:
 Visually indicates that the king is in check.
 
 # Remove Highlights
-Function: removeHighlights()
+### Function: removeHighlights()
 Clears all visual highlights on the board.
-Usage:
+### Usage:
 removeHighlights();
 
-Effect:
+### Effect:
 Removes square highlights.
 # Show Game Over
 
 Function: showGameOver(message)
 Displays a message when the game ends.
-Parameters:
+### Parameters:
 message (string): Game outcome message (e.g., "White is in checkmate!").
-Usage:
+### Usage:
 showGameOver("White is in checkmate!");
 
-Effect:
+### Effect:
 Shows a game-over overlay with the provided message.
 
 # Color Selection
-Functions:
+### Functions:
 $('#playAsWhite').on('click', ...)
+
 $('#playAsBlack').on('click', ...)
 
 Allows the player to choose their color and resets the game.
-Usage:
+### Usage:
 $('#playAsWhite').click();
 $('#playAsBlack').click();
-
-Effect:
+### Effect:
 Sets the player color.
 Resets the game board.
 
 # Resize Board
 Function: $(window).resize(board.resize)
 Makes the chessboard responsive to window resizing.
-Usage:
+### Usage:
 $(window).resize(board.resize);
-Effect:
+### Effect:
 Dynamically adjusts the board size.
 
 # Libraries Used
