@@ -1,6 +1,6 @@
 # Chess Game Project Documentation
 
-This repository provides a chess game implementation using chess.js and chessboard.js. 
+This repository provides a chess game implementation using ``` chess.js ``` and ``` chessboard.js``` 
 Below is a structured overview of the key functions and their usage, as if they were API endpoints.
 
 ## Table of Contents
