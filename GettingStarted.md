@@ -3,12 +3,6 @@
 This repository provides a chess game implementation using chess.js and chessboard.js. 
 Below is a structured overview of the key functions and their usage, as if they were API endpoints.
 
-``` ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
 ## Table of Contents
 
   - [Start New Game](#StartNewGame)
@@ -28,7 +22,9 @@ puts markdown.to_html
 Resets the game board and initializes a new game.
 If the user selects Black, the engine makes the first move.
 ### Usage:
-` startNewGame(); `
+```js
+startNewGame();
+```
 
 ### Effect:
 Resets the board to the starting position.
