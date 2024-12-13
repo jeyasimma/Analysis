@@ -1,11 +1,11 @@
-### Chess Game Project Documentation
+# Chess Game Project Documentation
 
 This repository provides a chess game implementation using chess.js and chessboard.js. 
 Below is a structured overview of the key functions and their usage, as if they were API endpoints.
 
-##Table of Contents
+## Table of Contents
+
   -[Start New Game](#StartNewGame)
-  
   -[Handle Player Move](#HandlePlayerMove)
   -[Get Game Status](#GetGameStatus)
   -[Engine Move](#EngineMove)
